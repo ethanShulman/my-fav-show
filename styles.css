@@ -1,0 +1,31 @@
+.show-title {
+    color: rgb(145, 16, 244);
+    background-image: "/assets/futurama.jpeg";
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.facts {
+  color: orange;
+  font-style: oblique;
+  font-family:monospace;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.row .col {
+  display: grid;
+  background-color: lavender;
+  gap: 50px 50px;
+  grid-row: 10px 20px;
+  grid-column: 10px 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.characters {
+  color: blueviolet;
+}
